@@ -1,0 +1,22 @@
+{
+  "name": "uewebviewbridge",
+  "version": "0.1.0",
+  "description": "Library for communication between UE and WebView.",
+  "main": "build/ue-webview-bridge.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "docs": "typedoc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "KidsLoop Co., Ltd.",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.3.0",
+    "typedoc": "^0.22.17",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

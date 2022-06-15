@@ -1,0 +1,6 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "name": "Unreal JS Bridge",
+    "entryPoints": ["src/index.ts"],
+    "out": "docs"
+}
