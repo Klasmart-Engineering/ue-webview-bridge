@@ -1,0 +1,40 @@
+name: Publish Docs
+
+concurrency:
+  group: PublishDocs
+  cancel-in-progress: true
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  install:
+    uses: KL-Engineering/github-action-workflows/.github/workflows/npm-ci.yml@v3.3.0
+    secrets:
+      NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+
+  build:
+    runs-on: ubuntu-latest
+    environment: latest
+    needs: [install]
+    steps:
+      - name: Build Docs
+        run: npm run docs
+
+  confirm-build:
+    needs: [build]
+    runs-on: ubuntu-latest
+    environment: latest
+    steps:
+      - name: Debug message
+        run: echo Docs Finished Building
+
+  publish:
+    needs: [confirm-publish]
+    uses: peaceiris/actions-gh-pages@v3
+    if: ${{ github.ref == 'refs/heads/main' }}
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      publish_dir: ./docs
