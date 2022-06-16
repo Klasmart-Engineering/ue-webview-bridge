@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.2.0%0Dv0.1.2) (2022-06-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename umd library to UnrealWebViewBridge
+
+### 🐛 Bug Fixes
+
+* rename umd library to UnrealWebViewBridge ([59d4675](https://github.com/KL-Engineering/ue-webview-bridge/commits/59d467532e4f279f99c210a3f29dddddb5f89eb8))
+
 ### [0.1.2](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.1.2%0Dv0.1.1) (2022-06-16)
 
 
