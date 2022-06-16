@@ -1,13 +1,13 @@
 const path = require(`path`);
 
 module.exports = {
-    entry: `./src/index.ts`,
+    entry: `./src/ue-webview-bridge.ts`,
     mode: `development`,
     output: {
-        path: path.resolve(__dirname, `build`),
+        path: path.resolve(__dirname, `dist`),
         filename: `ue-webview-bridge.js`,
         library: {
-            name: `UnrealJsBridge`,
+            name: `UnrealWebViewBridge`,
             type: `umd`,
         }
     },

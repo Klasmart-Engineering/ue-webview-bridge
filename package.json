@@ -1,8 +1,10 @@
 {
-  "name": "uewebviewbridge",
+  "name": "ue-webview-bridge",
   "version": "0.1.0",
-  "description": "Library for communication between UE and WebView.",
-  "main": "build/ue-webview-bridge.js",
+  "description": "Library for communication between Unreal Engine and WebView.",
+  "main": "dist/ue-webview-bridge.js",
+  "module": "dist/ue-webview-bridge.js",
+  "types": "dist/src/ue-webview-bridge.d.ts",
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
