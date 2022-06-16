@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, `dist`),
         filename: `ue-webview-bridge.js`,
         library: {
-            name: `@kl-engineering/ue-webview-bridge`,
+            name: `UnrealWebViewBridge`,
             type: `umd`,
         },
     },
