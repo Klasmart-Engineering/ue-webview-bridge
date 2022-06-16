@@ -29,11 +29,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
 
-  confirm-build:
-    needs: [build]
+  confirm-deploy:
+    needs: [deploy]
     runs-on: ubuntu-latest
     environment: latest
     steps:
       - name: Debug message
-        run: echo Docs Finished Building
-        
+        run: echo Docs finished deploying
