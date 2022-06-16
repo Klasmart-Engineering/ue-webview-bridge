@@ -20,6 +20,19 @@ jobs:
     environment: latest
     needs: [install]
     steps:
+      - uses: nschloe/action-cached-lfs-checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com/
+
+      - name: Find node_modules cache
+        id: cache-node_modules
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          
       - name: Build Docs
         run: npm run docs
       - name: Deploy Docs
