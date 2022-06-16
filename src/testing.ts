@@ -1,14 +1,12 @@
-import { AssertUnrealWebViewBridgeInstalled } from "./utility";
+import { Utility } from "./utility";
 
-/**
- * Print a hello message to the Unreal Engine logs.
- * @param name The name to say hello to.
- */
-export function hello(name: string) {
-    AssertUnrealWebViewBridgeInstalled();
-    window.ue.unrealjsbridge.hello(name);
-}
-
-export const Testing = {
-    hello,
+export module Testing {
+    /**
+     * Print a hello message to the Unreal Engine logs.
+     * @param name The name to say hello to.
+     */
+    export function Hello(name: string) {
+        Utility.AssertUnrealWebViewBridgeInstalled();
+        window.ue.unrealjsbridge.hello(name);
+    }
 }
