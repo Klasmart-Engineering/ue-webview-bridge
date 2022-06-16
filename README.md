@@ -47,3 +47,9 @@ This library can be installed from the KidsLoop `npm` repository.
 ```
 npm install @kl-engineering/ue-webview-bridge
 ```
+
+Then import the API.
+
+```
+import { UnrealWebViewBridge } from "@kl-engineering/ue-webview-bridge";
+```
