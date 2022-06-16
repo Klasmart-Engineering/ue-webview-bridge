@@ -4,7 +4,6 @@
 + [About](#about)
 + [Getting Started](#getting_started)
 + [Usage](#usage)
-+ [Contributing](../CONTRIBUTING.md)
 
 ## About <a name="about"></a>
 This is a Javascript API for communication between WebView and Unreal Engine.
