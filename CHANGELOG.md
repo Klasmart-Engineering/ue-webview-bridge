@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.4.0%0Dv0.3.1) (2022-06-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* export modules for each group of functions
+
+### ♻️ Chores
+
+* add checkout to steps ([8cfdae3](https://github.com/KL-Engineering/ue-webview-bridge/commits/8cfdae3f4547ed67d1b24764bab39cea48d2c6d0))
+* add import usage description ([2e3becf](https://github.com/KL-Engineering/ue-webview-bridge/commits/2e3becf390d311733b62f38fc1661f703e6b8d56))
+* add workflow to publish docs ([f8b6562](https://github.com/KL-Engineering/ue-webview-bridge/commits/f8b65625e65f862ee54cd2d370ab78f764521393))
+* fix incorrect confirm-deploy dependency ([72976dd](https://github.com/KL-Engineering/ue-webview-bridge/commits/72976dd6cf9b19f67a48fa088cd2bc33ab19146f))
+* fix name of actions-gh-pages ([230b991](https://github.com/KL-Engineering/ue-webview-bridge/commits/230b99180a6ed2c26837cdc51127e159b8d67310))
+* step to deploy docs ([325b04a](https://github.com/KL-Engineering/ue-webview-bridge/commits/325b04a882ad65df0415d933a777285da411317f))
+
+
+### 🐛 Bug Fixes
+
+* export modules for each group of functions ([5e8b5f6](https://github.com/KL-Engineering/ue-webview-bridge/commits/5e8b5f680165d2a57bacbeec665356c2b96a1453))
+
 ### [0.3.1](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.3.1%0Dv0.3.0) (2022-06-16)
 
 
