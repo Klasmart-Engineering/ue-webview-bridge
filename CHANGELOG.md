@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.3.1%0Dv0.3.0) (2022-06-16)
+
+
+### ✨ Features
+
+* add functions for checking ue-webview-bridge compatibility ([297f448](https://github.com/KL-Engineering/ue-webview-bridge/commits/297f4480a0f23028ee2c2b439dd7e62c159af310))
+
+
+### ♻️ Chores
+
+* add typedoc for Utility functions ([b35ca24](https://github.com/KL-Engineering/ue-webview-bridge/commits/b35ca2433f8b597fabbb991217e09e103258f8ef))
+
 ## [0.3.0](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.3.0%0Dv0.2.0) (2022-06-16)
 
 
