@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.4.1%0Dv0.4.0) (2022-06-16)
+
+
+### ♻️ Chores
+
+* deploy docs regardless of branch ([cd0f9a7](https://github.com/KL-Engineering/ue-webview-bridge/commits/cd0f9a7016fed0c1a3fcc18c57726cd555ca538e))
+
+
+### ✨ Features
+
+* add function to transfer login token ([fb20cf0](https://github.com/KL-Engineering/ue-webview-bridge/commits/fb20cf0c582027d4ac5c3038223f236f6531fb6b))
+
 ## [0.4.0](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.4.0%0Dv0.3.1) (2022-06-16)
 
 
