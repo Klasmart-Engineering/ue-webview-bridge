@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.3.0%0Dv0.2.0) (2022-06-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* reorganize exports for easier usage
+
+### 🐛 Bug Fixes
+
+* reorganize exports for easier usage ([96c9992](https://github.com/KL-Engineering/ue-webview-bridge/commits/96c9992c15bc113848a24e180da70919d1557d5e))
+
 ## [0.2.0](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.2.0%0Dv0.1.2) (2022-06-16)
 
 
