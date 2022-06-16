@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.1.2%0Dv0.1.1) (2022-06-16)
+
+
+### ♻️ Chores
+
+* include changelog and readme in npm package ([48604ba](https://github.com/KL-Engineering/ue-webview-bridge/commits/48604ba5417d06821bf4752e8d07a586326a8324))
+* remove test dependency from confirm-publish job ([5e2b356](https://github.com/KL-Engineering/ue-webview-bridge/commits/5e2b3560a01fb05a8e87ad4c735f10be5bdd230d))
+
 ### [0.1.1](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.1.1%0Dv0.1.0) (2022-06-16)
 
 
