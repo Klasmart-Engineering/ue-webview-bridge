@@ -15,13 +15,19 @@ jobs:
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
-  build:
+  deploy:
     runs-on: ubuntu-latest
     environment: latest
     needs: [install]
     steps:
       - name: Build Docs
         run: npm run docs
+      - name: Deploy Docs
+        uses: peaceiris/actions-gh-pages.yml@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
 
   confirm-build:
     needs: [build]
@@ -30,11 +36,4 @@ jobs:
     steps:
       - name: Debug message
         run: echo Docs Finished Building
-
-  publish:
-    needs: [confirm-publish]
-    uses: peaceiris/actions-gh-pages@v3
-    if: ${{ github.ref == 'refs/heads/main' }}
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: ./docs
+        
