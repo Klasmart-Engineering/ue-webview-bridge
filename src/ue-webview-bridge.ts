@@ -1,3 +1,7 @@
-import { default as Testing } from "./testing";
+import { Testing } from "./testing";
+import { Utility } from "./utility";
 
-export default { Testing }
+export const UnrealWebViewBridge = {
+    Testing,
+    Utility,
+}
