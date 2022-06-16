@@ -32,12 +32,11 @@ jobs:
         with:
           path: ./node_modules
           key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
-          
+
       - name: Build Docs
         run: npm run docs
       - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
