@@ -1,4 +1,5 @@
 import { Testing } from "./testing";
 import { Utility } from "./utility";
+import { Authentication } from "./authentication";
 
-export { Testing, Utility };
+export { Authentication, Testing, Utility };
