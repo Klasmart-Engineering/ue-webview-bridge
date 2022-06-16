@@ -1,6 +1,6 @@
 {
   "name": "@kl-engineering/ue-webview-bridge",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Library for communication between Unreal Engine and WebView.",
   "main": "dist/ue-webview-bridge.js",
   "module": "dist/ue-webview-bridge.js",

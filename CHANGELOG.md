@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.4.2%0Dv0.4.1) (2022-06-16)
+
+
+### 🐛 Bug Fixes
+
+* export authentication module ([9e95984](https://github.com/KL-Engineering/ue-webview-bridge/commits/9e959840888e8afe79333ce7838ce4f091404c8f))
+
 ### [0.4.1](https://github.com/KL-Engineering/ue-webview-bridge/branches/compare/v0.4.1%0Dv0.4.0) (2022-06-16)
 
 
