@@ -9,7 +9,7 @@ module.exports = {
         library: {
             name: `@kl-engineering/ue-webview-bridge`,
             type: `umd`,
-        }
+        },
     },
     devtool: `source-map`,
     module: {
@@ -22,6 +22,10 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: [`.tsx`, `.ts`, `.js`],
+        extensions: [
+            `.tsx`,
+            `.ts`,
+            `.js`,
+        ],
     },
 };
