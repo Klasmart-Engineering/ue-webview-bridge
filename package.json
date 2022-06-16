@@ -18,6 +18,7 @@
   "author": "KidsLoop Co., Ltd.",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.2",
     "@kl-engineering/eslint-config": "^3.0.1",
     "@rushstack/eslint-patch": "^1.1.3",
     "commitlint": "^17.0.2",
