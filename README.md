@@ -51,5 +51,11 @@ npm install @kl-engineering/ue-webview-bridge
 Then import the API.
 
 ```
-import { UnrealWebViewBridge } from "@kl-engineering/ue-webview-bridge";
+import { Utility } from "@kl-engineering/ue-webview-bridge";
+```
+
+Example of using the API.
+
+```
+console.log(Utility.IsUnrealWebViewBridgeInstalled() ? `Unreal WebView Bridge Installed` : `Not Installed`);
 ```
